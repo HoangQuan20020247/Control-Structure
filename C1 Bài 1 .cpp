@@ -5,15 +5,16 @@ using namespace std;
 int main() {
 	int n;
     cin >> n;
-    if(n < 2){
+    if(n < 2)
+	{
         cout <<"no";
         return 0;
     }
     int count = 0;
-    for(int i = 2; i <= sqrt(n); i++)
+        for(int i = 2; i <= sqrt(n); i++)
 	{
-        if(n % i == 0
-		){
+        if(n % i == 0)
+		{
             count++;
         }
     }

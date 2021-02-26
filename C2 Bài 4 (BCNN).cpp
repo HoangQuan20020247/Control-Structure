@@ -1,7 +1,7 @@
 #include<iostream>
 #include<math.h>
 using namespace std;
-int ucln(int a,int b)
+int umax(int a,int b)
 {
     int u;
     for ( int i=1;i<a;i++)
@@ -14,7 +14,6 @@ int ucln(int a,int b)
     return u;
 }
 int main()
-
 {
     int a,b;
     cout<<"nhap a = "<<endl;
@@ -26,6 +25,6 @@ int main()
         cout<<"Nhap lai";
     }
     else
-    { cout<<"BCNN cua a va b la: "<< (a*b)/ucln(a,b); }
+    { cout<<"BCNN cua a va b la: "<< (a*b)/umax(a,b); }
 }
 

@@ -15,7 +15,6 @@ int main()
 		i=n%10;
 		n=n/10;
 		tongcs=tongcs+i;
-		
 	}
 	cout<<tongcs;
 }

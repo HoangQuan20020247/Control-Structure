@@ -27,11 +27,6 @@ int main()
 	B=b;  
    	if(b<0) {B=-b;} }
     while(b!=0);
-	
-	   
-    
-    
-    
     cout<<"phan so toi gian la: "<< A/ucln(A,B)<<"/"<<B/ucln(A,B); 
 }
 
